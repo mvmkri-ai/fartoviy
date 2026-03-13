@@ -1,0 +1,100 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Заголовок H1 */
+.main-title {
+    color: #2c3e50;
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Навігація */
+.navigation {
+    margin: 20px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-item a:hover {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section {
+    text-align: center;
+}
+
+/* Заголовок H2 */
+h2 {
+    color: #34495e;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+/* Фото */
+.photo {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+    margin: 20px 0;
+}
+
+/* Опис */
+.description {
+    font-size: 24px;
+    color: #34495e;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+/* Футер */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: 40px;
+}
